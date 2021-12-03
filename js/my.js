@@ -4,32 +4,6 @@ $(document).ready(function () {
     $(function () {
         AOS.init();
     })
-
-  //slick
-  $(".center1").slick({
-    autoplaySpeed:4000,
-    arrows: true,
-    autoplay:true,
-    dots: true,
-    infinite: true,
-    centerMode: true,
-    centerPadding: '0px',
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    cssEase: 'linear',
-  
-
-});
-
-//fancybox
-$('[data-fancybox]').fancybox({   
-    touch: {
-    vertical:false, // Allow to drag content vertically
-    momentum: false // Continue movement after releasing mouse/touch when panning
-  },
-
-})
-
     //notice
     // $('.notice-content').hide();
     $('#notice .title').click(function () {
