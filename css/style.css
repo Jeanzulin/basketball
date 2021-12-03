@@ -935,7 +935,7 @@ section.kv{
 
 @media screen and (max-width: 576px) {
     .section2 .video, .section2 .game {
-        width: 85%;
+        width: 95%;
     }
     .section2 {
         padding-top: 85px;
